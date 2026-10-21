@@ -1,0 +1,37 @@
+
+
+```gitignore
+# python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# large model & data files
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.whl
+*.zip
+*.rar
+*.tar.gz
+
+# jupyter
+.ipynb_checkpoints
+
+# system
+.DS_Store
+Thumbs.db
+
+# real full clinical omics data (TCGA policy)
+data/imputed_data_OS_filled.csv
+
+# skip pre‑computed result csv, regenerate by user
+results/
+
+# temp output
+*.npy
+*.npz
+temp/
+
